@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "app.js",
+        "use": "@now/streamlit"
+      }
+    ],
+    "routes": [
+      {
+       
+        "src": "/(.*)",
+        
+        "dest": "app.js"
+      }
+    ]
+}
